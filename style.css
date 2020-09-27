@@ -80,7 +80,7 @@ p {
   padding-left: 1px;
   min-height: 100vh;
   height: 100%;
-  background: linear-gradient(to bottom, #ffccb5 0%, #ffaac6 100%);
+  background: linear-gradient(to bottom, #ffccb5 0%, #f8bdc0 100%);
   background-color: #b5e8e5;
 }
 
@@ -132,7 +132,7 @@ h3 {
     text-align: center;
 }
 
-a {
+.link {
     align-self: center;
     text-align: center;
     color: inherit;
@@ -144,8 +144,14 @@ a {
     padding: 12px 0px;
 }
 
-a:hover {
+.link:hover {
     background-color: rgba(245, 222, 179, 0.02);
+}
+
+a {
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit;
 }
 
 .selected {
@@ -158,7 +164,7 @@ a:hover {
     width: 100%;
     align-self: center;
     text-align: center;
-    cursor: inherit;
+    cursor: pointer;
 }
 
 #navlinks {
@@ -253,4 +259,12 @@ h6 {
 
 li {
   font-size: 16px;
+}
+
+.projectpage {
+  width: 75%;
+  min-height: 100vh;
+  margin-left: 25%;
+  padding-left: 10px;
+  background-color: antiquewhite;
 }
